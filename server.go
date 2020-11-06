@@ -20,7 +20,7 @@ func main() {
 
 	chat.RegisterChatServiceServer(grpcServer, &s)
 
-	log.Print("Starting gRPC server on TCP Port: 9000")
+	log.Print("Starting gRPC server on TCP Port :9000")
 	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("Failed to serve gRPC server on port: %v", err)
 	}
