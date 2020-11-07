@@ -1,7 +1,7 @@
 # gorpc-chat
 This is a simple Go program that utilizes `Protoc` and `gRPC` to create a server and client that communicate to each other.
 ## Demo
-![demo.gif](Demo of a Go client and server communicating via gRPC)
+![image](demo.gif)
 ## How It Works
 ### Using a Proto file to build a gRPC service
 By using `Protoc`, it is possible to generate a `gRPC` service file by starting with a `.proto` file. Here's an example service in `chat.proto`:
